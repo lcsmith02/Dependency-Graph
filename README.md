@@ -5,14 +5,23 @@ It has been developed using HTML5, Javascript, Bootstrap and Java. The dependenc
 
 Front End:
 drawGraph.js - Draws and renders the dependency graph 
+
 Home.html - It's the home page
+
 Graph.html - Allows the user to upload the project and see the dependencies among the source code files
 
+
 Back End:
+
 AnalyzeCPPFiles.java - Analyzes the cpp source code files for dependencies
+
 Constants.java - Defines the constants
+
 Dependencies.java - Creates the xml file of dependencies
+
 IAnalyzeFiles.java - Defines the interface for analyzing the source code files
+
 ParseProject.java - Extracts individual files from the zip folder and puts them in the queue to be processed
+
 Saveproject.java - The servlet that gets the HTTP request and responds to the client
 
